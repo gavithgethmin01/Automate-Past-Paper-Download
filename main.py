@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError, Error as PlaywrightError
 
 # --- Config ---
-HEADLESS = False
+HEADLESS = False # If you wanna see donwloading true the chromium.(OR other browser.. )
 SAVE_DIR = "physics_2023_grade13_papers_fast"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
